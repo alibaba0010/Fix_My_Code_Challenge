@@ -24,10 +24,13 @@ class square():
         return (self.width * 2) + (self.height * 2)
 
     def __str__(self):
+        """ Printable representation the square"""
+
         return "{}/{}".format(self.width, self.height)
 
 
 if __name__ == "__main__":
+    """ Creating a square object """
 
     s = square(width=12, height=9)
     print(s)
